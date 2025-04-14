@@ -1,0 +1,159 @@
+.pagecontainer {
+    font-family:Roboto,serif;
+}
+
+.headersection {
+    background-color:#1F2937;
+}
+
+.topline {
+    display:flex;
+    flex-direction:row;
+    flex-basis:1 1 auto;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    font-size:16px;
+    margin-right:60px;
+}
+
+h1 {
+    color:white;
+    font-weight:bold;
+    font-size:36px;
+    margin-left:120px;
+}
+.toplinegroup {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-start;
+    margin-left:60px;
+    margin-right:60px;
+    margin-bottom:0px;
+    flex-wrap:nowrap;
+}
+.toplinepara {
+    display:flex;
+    flex-direction:row;
+    max-width:50vw;
+    flex-basis:1 1 auto;
+    margin-left:60px;
+    margin-right:20px;
+    margin-bottom:10px;
+    color:white;
+    font-size:16px;
+    flex-wrap:wrap;
+}
+
+.toptree {
+    display:flex;
+    flex-shrink:0;
+    flex-wrap:wrap;
+    margin-left:40px;
+    margin-right:auto;
+    align-items:flex-end;
+}
+
+button {
+    color:white;
+    font-weight:bold;
+    background-color:#3882f6;
+    border-radius:20px;
+    height: 30px;
+    width:100px;
+}
+
+.links {
+    margin-left:10px;
+    margin-right:50px;
+    color:white;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+.headerlinks {
+    display:flex;
+    flex-direction:row;
+    flex-basis: 1 1 auto;
+    align-items:space-between;
+}
+
+h2 {
+    display:flex;
+    justify-content:center;
+}
+
+.section2txt {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+}
+
+.section2img {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+}
+
+.section2indimg {
+    border-style:solid;
+    border-color:#3882f6
+}
+
+.section3 {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color: #e5e8eb;
+    height:240px;
+}
+
+.testimonial {
+    font-style:italic;
+    font-size:24px;
+    margin-left:120px;
+    margin-right:60px;
+}
+
+.testimonialsign {
+    margin-top:auto;
+    margin-right:120px;
+    margin-bottom:20px;
+    font-style:bold;
+    font-size:20px;
+}
+
+.section4 {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.bluebox {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:space-between;
+    min-width:80vw;
+    background-color:#3882f6;
+    margin:40px;
+    border-radius:20px;
+}
+
+.footer {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:#1F2937;
+    color:white;
+    margin-bottom:auto;
+}
